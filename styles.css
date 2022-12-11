@@ -21,6 +21,22 @@ nav {
   padding: 0;
 }
 
+.cards {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boost-links {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
 .section1 {
   display: flex;
   position: relative;
