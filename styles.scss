@@ -60,6 +60,7 @@ footer {
     display: flex;
     position: relative;
     padding: 50px 0px;
+    margin-bottom: 75px;
 
     img {
         // position: absolute;
@@ -100,6 +101,10 @@ footer {
     padding: 50px;
     background-image: url(images/bg-shorten-desktop.svg);
     background-color: #3A3054;
+    position: absolute;
+    border-radius: 10px;
+    width: 85%;
+    top: -15%;
 
     #url {
         width: 80%;
@@ -119,11 +124,11 @@ footer {
 }
 
 .advanced {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
 
     .title {
         font-size: 50px;
@@ -134,4 +139,11 @@ footer {
         width: 35%;
         text-align: center;
     }
+}
+
+.container2 {
+    position: relative;
+    padding: 0px 100px;
+    background-color: #EFF1F7;
+    padding-top: 50px;
 }
