@@ -2,15 +2,34 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  padding: 50px 100px;
-}
-
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.container {
+  padding: 50px 100px;
+}
+
+.button-conatiner {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.login {
+  background-color: transparent;
+  border: none;
+}
+
+.sign-up {
+  background-color: #5CD5D0;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: white;
 }
 
 .nav-items {
@@ -40,22 +59,66 @@ footer {
 .section1 {
   display: flex;
   position: relative;
-  height: 600px;
+  padding: 50px 0px;
 }
-.section1 img {
-  position: absolute;
-  right: -25%;
-}
-
 .section1-text-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  width: 50%;
+  gap: 15px;
+}
+.section1-text-block .title {
+  font-size: 80px;
+  z-index: 1;
+  font-weight: 800;
+  line-height: 1;
+}
+.section1-text-block .subtitle {
+  font-size: 20px;
+  width: 75%;
+}
+.section1-text-block button {
+  background-color: #5CD5D0;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 40px;
+  color: white;
 }
 
 .section2 {
   padding: 50px;
   background-image: url(images/bg-shorten-desktop.svg);
   background-color: #3A3054;
+}
+.section2 #url {
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+.section2 #submit {
+  width: 18%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #5CD5D0;
+  color: white;
+}
+
+.advanced {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.advanced .title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.advanced .subtitle {
+  width: 35%;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
