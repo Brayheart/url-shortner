@@ -50,10 +50,29 @@ footer {
 }
 
 .boost-links {
+    background-color: #3A3054;
+    background-image: url(./images/bg-boost-desktop.svg);
+    height: fit-content;
+    padding: 30px 0px;
+    gap: 15px;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
+
+    p{
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    button {
+        background-color: #5CD5D0;
+        border: none;
+        border-radius: 20px;
+        padding: 8px 40px;
+        color: white;
+    }
 }
 
 .section1 {
