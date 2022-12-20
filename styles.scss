@@ -42,6 +42,44 @@ nav {
 
 .cards {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+
+    .second {
+        margin-top: 50px;
+    }
+
+    .third {
+        margin-top: 100px;
+    }
+
+    .card {
+        width: 30%;
+        background-color: white;
+        padding: 20px;
+        padding-top: 50px;
+        position: relative;
+        height: fit-content;
+        padding-bottom: 35px;
+
+        img {
+            position: absolute;
+            background-color: #3A3054;
+            padding: 12px;
+            border-radius: 50%;
+            top: -35px;
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 22px;
+        }
+
+        .text {
+
+        }
+    }
 }
 
 footer {
@@ -85,6 +123,18 @@ footer {
         // position: absolute;
         // right: -25%;
     }
+}
+
+.line {
+    width: -webkit-fill-available;
+    position: absolute;
+    height: 10px;
+    background-color: #5CD5D0;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .section1-text-block {
@@ -152,6 +202,7 @@ footer {
     .title {
         font-size: 50px;
         font-weight: 700;
+        margin-bottom: 10px;
     }
 
     .subtitle {
@@ -165,4 +216,5 @@ footer {
     padding: 0px 100px;
     background-color: #EFF1F7;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
